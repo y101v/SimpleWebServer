@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iOh8yd/lAAc+DD8c19MFgE5J/nOdY3TMPIogK1WDB9BTMXEZUOqoeM3Jlzs1Zyq855omUly057fMAIaX6WJQ+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\grind\\.cursor-tutor\\SimpleWebServer\\SimpleWebServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\grind\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\grind\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
