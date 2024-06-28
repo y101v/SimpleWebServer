@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Demo</title>
+    <link type="text/css" rel="Stylesheet" href="/CSS/demo.css"/>
+    <script src="/Scripts/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+    <button id="me">Click me for AJAX</button>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#me").click(function () {
+                $.ajax({
+                    url: "/demo/ajax",
+                    async: true,
+                    cache: false,
+                    type: "put",
+                    data: {
+                        number: 5,
+                        __CSRFToken__: $("#__csrf__").val()
+                    },
+                    success: function(data, status) {
+                        alert(data);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
